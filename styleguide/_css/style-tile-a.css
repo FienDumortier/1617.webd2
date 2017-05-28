@@ -1,0 +1,178 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+h1,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'Roboto', serif;
+    color: rgb(37, 91, 128);
+}
+h2,
+{
+font-family: 'Roboto', sans-serif;
+color: #9d8958;
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+a,
+a:visited {
+    color: #8EDCFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #8EDCFF;
+    text-decoration: underline;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+
+}
+.button--success,
+.button--success:active,
+.button--success:visited {
+    background-color:    hsl(0,  0%,  100%);
+    border: none;
+    border-radius:15px;
+    color:  #0E2B94;
+    box-shadow:0px 0px 10px 3px rgba(0,0,0,0.2);
+}
+.button--success:hover {
+    background-color:    hsl(0,  0%,  80%);
+    border: none; 
+    border-radius:15px;
+    color: #0E2B94;
+    box-shadow:0px 0px 10px 3px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+
+
+.colours__colour--a {
+    background-color: #161616;
+    border-radius:15px;
+    border: none;
+    width: 75px; 
+    height: 75px;
+}
+.colours__colour--b {
+    background-color: #777;
+    border-radius:15px;
+    border: none;
+    width: 75px; 
+    height: 75px;
+
+}
+.colours__colour--c {
+    background-color: #0E2B94;
+    border-radius:15px;
+    border: none;
+    width: 75px; 
+    height: 75px;
+    
+}
+
+
+.colours__colour--e {
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    border: none;
+    width: 75px; 
+    height: 75px;
+}
+.colours__colour--f {
+    background-color: #8EDCFF;
+    border-radius:15px;
+    border: none;
+    width: 75px; 
+    height: 75px;
+}
+
+.keywords__keyword--a {
+    color:  #0E2B94;
+    font-size: 3.75rem;
+    margin-right: 10px;
+
+}
+.keywords__keyword--b {
+    color: #777;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.keywords__keyword--c {
+    color: #161616;
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+.keywords__keyword--d {
+    color: #8EDCFF;
+    font-size: 3.25rem;
+}
+
+.logo_1{
+    margin-right: 20px;
+}
+
+
+
+.row{
+
+margin-left: 610px;
+margin-bottom: 15px;
+
+
+
+
+}
+
+#submit_button {
+
+    background-color:    hsl(0,  0%,  100%);
+    border: none;
+    border-radius:15px;
+    color:  #0E2B94;
+    box-shadow:0px 0px 10px 3px rgba(0,0,0,0.2);
+    margin-left: 610px;
+    margin-bottom: 15px;
+    
+}
+
+#name {
+
+   
+    border-radius:15px;
+     color: rgb(46, 46, 46);
+	
+	
+    
+}
+
+.input {
+
+font-family: 'Roboto', sans-serif;
+
+}
+
+label{
+	
+	color:  #0E2B94;
+}

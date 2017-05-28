@@ -1,0 +1,137 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+h1,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'Hiragino Mincho Pro w6', serif;
+    color: rgb(37, 91, 128);
+}
+h2,
+{
+font-family: 'Helvetica neue', sans-serif;
+color: rgb(157, 137, 88);
+}
+p {
+    font-family: 'helvetica neue light', sans-serif;
+    line-height: 1.5;
+    color: rgb(135, 135, 135);
+}
+
+a,
+a:visited {
+    color: rgb(135, 135, 135);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(135, 135, 135);
+    text-decoration: underline;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button--default,
+.button--default:active,
+.button--default:visited {
+    background-color:    hsl(  0,  0%,  55%);
+    border-bottom-color: hsl(  0,  0%,  33%);
+    color: #FFF;
+}
+.button--default:hover {
+    background-color:    hsl(  0,  0%,  44%);
+    border-bottom-color: hsl(  0,  0%,  22%);
+    color: #FFF;
+}
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    background-color:    #9d8958;
+    border-bottom-color: hsl(46, 65%, 30%);
+    color: rgb(46, 46, 46);
+}
+.button--primary:hover {
+    background-color:    #9d8958;
+    border-bottom-color: hsl(46, 65%, 30%);
+
+    color: rgb(46, 46, 46);
+}
+.button--danger,
+.button--danger:active,
+.button--danger:visited {
+    background-color:    rgb(46, 46, 46);
+    border-bottom-color: hsl(  0,  0%,  10%);
+    color: #FFF;
+}
+.button--danger:hover {
+    background-color:    hsl(  0,  0%,  10%);
+    border-bottom-color: hsl(  0,  0%,  18%);
+    color: #FFF;
+}
+.button--success,
+.button--success:active,
+.button--success:visited {
+    background-color:    hsl(0,  0%,  100%);
+    border-bottom-color: hsl(0,  0%,  80%);
+    color: #000;
+}
+.button--success:hover {
+    background-color:    hsl(0,  0%,  80%);
+    border-bottom-color: hsl(0,  0%,  98%);
+    color: #000;
+}
+
+.colours__colour--a {
+    background-color: rgb(37, 91, 128);
+}
+.colours__colour--b {
+    background-color: rgb(50, 50, 50);
+}
+.colours__colour--c {
+    background-color: rgb(0, 0, 0);
+}
+.colours__colour--d {
+    display: none;
+    background-color: #9d8958
+}
+.colours__colour--e {
+    background-color: rgb(255, 255, 255);
+}
+.colours__colour--f {
+    background-color: #9d8958
+}
+
+.keywords__keyword--a {
+    color: hsl(  0,  0%,  55%);
+    font-size: 3.75rem;
+}
+.keywords__keyword--b {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+.keywords__keyword--c {
+    color: rgb(46, 46, 46);
+    font-size: 2.5rem;
+}
+.keywords__keyword--d {
+    color: #9d8958;
+    font-size: 3.25rem;
+}
